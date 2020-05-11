@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pagina web</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/validacion.js"></script>
+</head>
+<body>
+	<header>
+		<label id="waimai">WAIFUSMAIL</label>
+		<a id="premenu"> 
+			<input type="submit" id="inicio" value="Inicio" onmouseover="funbononini(event)" onmouseout="funbonoutini(event)" style="cursor:pointer;" onclick="location.href='inicio.html'">
+			<input type="submit" id="iniciarsesion" value="Iniciar Sesión" onmouseover="funbononinis(event)" onmouseout="funbonoutinis(event)" style="cursor:pointer;" onclick="location.href='index.html'">
+			<input type="submit" id="regis" value="Registrarte" onmouseover="funbononreg(event)" onmouseout="funbonoutreg(event)" style="cursor:pointer;" onclick="location.href='regis.html'">
+		</a>
+	</header>
+	<div class="forlogin">
+		<div class="login">Iniciar Sesión</div>
+			<div class="A"><label id="user"><a>Usuario:</a></label></div>
+			<div class="B"><input type="text" id="boxuser" maxlength="100" required="required" placeholder="user"></div>
+			<div class="C"><label id="password"><a>Contraseña:</a></label></div>
+			<div class="D"><input type="Password" id="boxpass" maxlength="50" required="required" placeholder="password"></div>
+			<div class="E"><input type="submit" id="butlog" value="Ingresar" style="cursor:pointer;"></div>
+			<div class="F"><label id="prereg"><b>¿No tienes cuenta?</b></label></div>
+			<div class="G"><a id="reg" href="regis.html" style="cursor:pointer;">Registrate</a></div>
+	</div>
+</body>
+</html>

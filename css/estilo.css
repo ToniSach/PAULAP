@@ -1,0 +1,152 @@
+body {
+	height: 100%;
+    background-repeat: no-repeat;
+    background: url(../imagenes/fondologin.JPG) no-repeat center center fixed;
+    background-size: 100% 100%;
+
+}
+
+header {
+	left: 0;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	color: white;
+	opacity: 0.6;
+}
+
+.forlogin {
+	left: 35%;
+	right: 35%; 
+	top: 15%;
+	height: 64%;
+	position: fixed;
+	display: grid;
+  	grid-gap: 0rem;
+  	grid-template-columns: 100%;	
+  	grid-template-rows: 23% 10% 10% 10% 10% 22% 6% 6%;
+	background-color: black;
+	color: white;
+	opacity: 0.5;
+}
+
+.A, .B, .C, .D, .E, .F, .G {
+	/*background-color: red; 
+	border: blue 2px solid;*/
+	font-size: 30px;
+}
+
+#user{
+	margin-left: 3%;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+#password {
+	flex: left;
+	margin-left: 3%;
+	margin-top: 50%;
+	margin-bottom: auto;
+}
+
+.login{
+	font-size: 40px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+.A {
+	grid-row: 2;
+}
+
+.B {
+	grid-row: 3;
+}
+
+.C {
+	margin-top: 2.4%;
+	grid-row: 4;
+}
+
+.D {
+	grid-row: 5;
+}
+
+#boxuser,#boxpass {
+	background: transparent;
+	color: white;
+	font-size: 20px;
+	margin-left: 3%;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	width: 91%;
+	padding: 5px;
+	outline: none;
+}
+
+.E {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+#butlog {
+	width: 80%;
+    padding: 6px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: white;
+    background-color: #f18c42;
+    border-radius: 6px;
+    border: 1px solid #d96100;
+    outline-color: white;
+}
+
+.F {
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-size: 19px;
+}
+
+.G {
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-size: 19px;
+}
+
+#reg {
+	color: orange;
+	outline-color: orange;
+}
+
+#waimai {
+	display: inline-block;
+	margin-left: 1%;
+	margin-top: .8%;
+	font-size: 52px;
+}
+
+#inicio, #iniciarsesion, #regis {
+	background: transparent;
+	color: white;
+	border: 0.5px;
+	padding: 6px;
+	font-size: 16px;
+	margin-left: 3.4px;
+	outline-color: #742b77;
+}
+
+#premenu {
+	position: absolute;
+	right: .7%;
+	top: 54%;
+}
